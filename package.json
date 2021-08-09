@@ -1,0 +1,38 @@
+{
+  "name": "sh-loader",
+  "version": "1.0.0",
+  "description": "A sh loader for webpack.",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinhua/sh-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "sh",
+    "sh-loader"
+  ],
+  "author": "BabyChin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qinhua/sh-loader/issues"
+  },
+  "homepage": "https://github.com/qinhua/sh-loader#readme",
+  "jest": {
+    "verbose": true,
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
