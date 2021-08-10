@@ -6,9 +6,8 @@
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
-[![tests][tests]][tests-url]
+[![cover][cover]][cover-url]
 [![size][size]][size-url]
-
 # sh-loader
 
 A sh loader for webpack. Tranform .sh file to object.
@@ -38,8 +37,8 @@ module.exports = {
 };
 ```
 
-You can import the sh file
-```js
+Now, you can import sh file.
+```
 import sh from './xxx.sh'
 console.log(sh)
 ```
@@ -56,13 +55,11 @@ And run `webpack` via your preferred method.
 
 [MIT](./LICENSE)
 
-[npm]: https://img.shields.io/npm/v/less-loader.svg
-[npm-url]: https://npmjs.com/package/less-loader
-[node]: https://img.shields.io/node/v/less-loader.svg
+[npm]: https://img.shields.io/npm/v/sh-loader.svg
+[npm-url]: https://npmjs.com/package/sh-loader
+[node]: https://img.shields.io/node/v/sh-loader.svg
 [node-url]: https://nodejs.org
-[tests]: https://github.com/webpack-contrib/less-loader/workflows/sh-loader/badge.svg
-[tests-url]: https://github.com/webpack-contrib/sh-loader/actions
-[cover]: https://codecov.io/gh/webpack-contrib/sh-loader/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/less-loader
-[size]: https://packagephobia.now.sh/badge?p=less-loader
-[size-url]: https://packagephobia.now.sh/result?p=less-loader
+[cover]: https://codecov.io/gh/qinhua/sh-loader/branch/main/graph/badge.svg?token=KSB3Z41HLW
+[cover-url]: https://codecov.io/gh/qinhua/sh-loader
+[size]: https://packagephobia.now.sh/badge?p=sh-loader
+[size-url]: https://packagephobia.now.sh/result?p=sh-loader
