@@ -7,7 +7,7 @@
     "src"
   ],
   "scripts": {
-    "test": "jest --coverage && codecov"
+    "test": "jest --coverage && codecov --token 1f9803db-7ad8-44cd-b0ee-89f6d5908b8b"
   },
   "repository": {
     "type": "git",

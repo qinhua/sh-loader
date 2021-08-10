@@ -38,7 +38,7 @@ module.exports = {
 ```
 
 Now, you can import sh file.
-```
+```js
 import sh from './xxx.sh'
 console.log(sh)
 ```
@@ -59,6 +59,7 @@ And run `webpack` via your preferred method.
 [npm-url]: https://npmjs.com/package/sh-loader
 [node]: https://img.shields.io/node/v/sh-loader.svg
 [node-url]: https://nodejs.org
+[node-ci]: https://github.com/qinhua/sh-loader/actions/workflows/node.js.yml/badge.svg?event=status
 [cover]: https://codecov.io/gh/qinhua/sh-loader/branch/main/graph/badge.svg?token=KSB3Z41HLW
 [cover-url]: https://codecov.io/gh/qinhua/sh-loader
 [size]: https://packagephobia.now.sh/badge?p=sh-loader
