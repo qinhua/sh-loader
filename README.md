@@ -9,6 +9,7 @@
 [![node][node]][node-url]
 [![cover][cover]][cover-url]
 [![size][size]][size-url]
+
 # sh-loader
 
 A sh loader for webpack. Transform .sh file to an object.
@@ -31,26 +32,44 @@ module.exports = {
     rules: [
       {
         test: /\.sh$/,
-        use: "sh-loader"
+        use: "sh-loader",
       },
     ],
   },
 };
 ```
 
-Now, you can import sh file.
+Now, you can import `.sh` file.
+
 ```js
-import sh from './xxx.sh'
+import sh from './mongod.sh'
 console.log(sh)
+
+// eventually converted to this type of JSON
+{
+  origin: "mongod --dbpath db --logpath log/mongod.log --bg=red", // source
+  originArr: ["mongod --dbpath db --logpath log/mongod.log --bg=red"], // source array split with '\n'
+  detail: [{
+    command: "mongod", // command name
+    params: {
+      _: [
+        "mongod"
+      ],
+      dbpath: "db",
+      logpath: "log/mongod.log",
+      bg: "red"
+    } // command params
+  }]
+}
 ```
 
 And run `webpack` via your preferred method.
 
 ## Options
 
-|      Name         |      Type      |     Default    |  Description    |
-| :---------------: | :------------: | :------------: | -------------   |
-| **parse**         |   `{Boolean}`  |   `true`       | Enable/Disable parse|  
+|   Name    |    Type     | Default | Description          |
+| :-------: | :---------: | :-----: | -------------------- |
+| **parse** | `{Boolean}` | `true`  | Enable/Disable parse |
 
 ## License
 
