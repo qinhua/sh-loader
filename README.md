@@ -3,16 +3,26 @@
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
 </div>
-<br/>
 
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![cover][cover]][cover-url]
-[![size][size]][size-url]
+<h1 align="center">sh-loader</h1>
 
-# sh-loader
+<p align="center">A sh loader for webpack. Transform .sh file to an object.</p>
 
-A sh loader for webpack. Transform .sh file to an object.
+<p align="center">
+  <a href="https://npmjs.com/package/sh-loader">
+    <img alt="npm" src="https://img.shields.io/badge/npm-v5.0.0-blue" />
+  </a>
+  <a href="https://nodejs.org">
+    <img alt="npm" src="https://img.shields.io/node/v/sh-loader.svg" />
+  </a>
+  <a href="https://codecov.io/gh/qinhua/sh-loader">
+    <img alt="coverage" src="https://codecov.io/gh/qinhua/sh-loader/branch/main/graph/badge.svg?token=KSB3Z41HLW" />
+  </a>
+  <a href="https://packagephobia.now.sh/result?p=sh-loader">
+    <img alt="size" src="https://packagephobia.now.sh/badge?p=sh-loader" />
+  </a>
+</p>
+
 
 ## Getting Started
 
@@ -74,12 +84,3 @@ And run `webpack` via your preferred method.
 ## License
 
 [MIT](./LICENSE)
-
-[npm]: https://img.shields.io/badge/npm-v5.0.0-blue
-[npm-url]: https://npmjs.com/package/sh-loader
-[node]: https://img.shields.io/node/v/sh-loader.svg
-[node-url]: https://nodejs.org
-[cover]: https://codecov.io/gh/qinhua/sh-loader/branch/main/graph/badge.svg?token=KSB3Z41HLW
-[cover-url]: https://codecov.io/gh/qinhua/sh-loader
-[size]: https://packagephobia.now.sh/badge?p=sh-loader
-[size-url]: https://packagephobia.now.sh/result?p=sh-loader
